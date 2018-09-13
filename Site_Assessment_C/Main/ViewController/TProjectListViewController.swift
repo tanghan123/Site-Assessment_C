@@ -40,12 +40,16 @@ class TProjectListViewController: TBaseViewController {
 extension TProjectListViewController 
 {
     func congifureSubView() {
-        
+        tableView.tableFooterView = UIView()
+        tableView.backgroundColor = UIColor.clear
     }
 }
 
 extension TProjectListViewController :UITableViewDelegate , UITableViewDataSource
 {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 4
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
@@ -58,5 +62,17 @@ extension TProjectListViewController :UITableViewDelegate , UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        return UIView();
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 80
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.01
     }
 }

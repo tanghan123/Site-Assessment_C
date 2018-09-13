@@ -30,6 +30,29 @@
             </objects>
             <point key="canvasLocation" x="-934" y="99"/>
         </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="N7f-fX-3aR">
+            <objects>
+                <viewController id="4CR-o9-fEh" customClass="TSettingViewController" customModule="Site_Assessment_C" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uFi-Lk-usy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YLh-Rj-Pzm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eNz-DK-Vhg">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="hHp-9M-vnz">
+                            <color key="tintColor" red="0.050980392159999999" green="0.4431372549" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="back:" destination="4CR-o9-fEh" id="t5p-wj-mNF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bW-2r-x5R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143" y="782"/>
+        </scene>
         <!--Report List-->
         <scene sceneID="S5i-ch-k2Z">
             <objects>
@@ -39,20 +62,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qpc-Xp-aCC">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="25" y="64" width="325" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="UtH-51-zWB">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="325" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFH-fS-TBf">
-                                            <rect key="frame" x="300" y="14" width="60" height="17.5"/>
+                                            <rect key="frame" x="250" y="13" width="60" height="18"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                             <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="MFH-fS-TBf" secondAttribute="trailing" constant="15" id="KMd-nn-zpc"/>
                                         <constraint firstItem="MFH-fS-TBf" firstAttribute="centerY" secondItem="UtH-51-zWB" secondAttribute="centerY" id="Qtx-Zy-f6C"/>
@@ -60,10 +84,10 @@
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TProjectListTableviewCell" rowHeight="71" id="Dml-W7-d1D" customClass="TProjectListTableviewCell" customModule="Site_Assessment_C" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="71"/>
+                                        <rect key="frame" x="0.0" y="72" width="325" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dml-W7-d1D" id="P73-O3-q6D">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="70.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-NR-pgB">
@@ -87,14 +111,17 @@
                         <constraints>
                             <constraint firstItem="sOo-9C-gLs" firstAttribute="bottom" secondItem="Qpc-Xp-aCC" secondAttribute="bottom" id="I3c-oO-nzj"/>
                             <constraint firstItem="Qpc-Xp-aCC" firstAttribute="top" secondItem="sOo-9C-gLs" secondAttribute="top" id="IzT-1i-MWd"/>
-                            <constraint firstItem="sOo-9C-gLs" firstAttribute="trailing" secondItem="Qpc-Xp-aCC" secondAttribute="trailing" id="lQZ-bQ-rzZ"/>
-                            <constraint firstItem="Qpc-Xp-aCC" firstAttribute="leading" secondItem="sOo-9C-gLs" secondAttribute="leading" id="nos-8D-XR5"/>
+                            <constraint firstItem="sOo-9C-gLs" firstAttribute="trailing" secondItem="Qpc-Xp-aCC" secondAttribute="trailing" constant="25" id="lQZ-bQ-rzZ"/>
+                            <constraint firstItem="Qpc-Xp-aCC" firstAttribute="leading" secondItem="sOo-9C-gLs" secondAttribute="leading" constant="25" id="nos-8D-XR5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sOo-9C-gLs"/>
                     </view>
                     <navigationItem key="navigationItem" title="Report List" id="3eB-sl-gDF">
                         <barButtonItem key="leftBarButtonItem" image="icon-settings-left" id="Kpg-ew-YnK">
                             <color key="tintColor" red="0.050980392159999999" green="0.4431372549" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="4CR-o9-fEh" kind="push" id="z4D-Gd-6t2"/>
+                            </connections>
                         </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem image="icon-add-right" id="o8d-a9-JsZ">
