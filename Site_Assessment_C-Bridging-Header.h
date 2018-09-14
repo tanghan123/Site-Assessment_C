@@ -10,6 +10,7 @@
 #define Site_Assessment_C_Bridging_Header_h
 #import <GoogleAPIClientForREST/GTLRUtilities.h>
 #import <GoogleAPIClientForREST/GTLRDrive.h>
+#import <Firebase/Firebase.h>
 #import <GTMSessionFetcher/GTMSessionFetcherService.h>
 #import <GTMSessionFetcher/GTMSessionFetcherLogging.h>
 #import <MJExtension/MJExtension.h>
