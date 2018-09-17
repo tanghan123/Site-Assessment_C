@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>heading</key>
+		<string>LAYOUT</string>
+		<key>questionList</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Copy of Structural Layout:</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string>NO</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Copy of Floor Plan:</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string>No</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Copy of Electrical Drawing:</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string>No</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>heading</key>
+		<string>STRUCTURAL</string>
+		<key>questionList</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Area of Property Site:</string>
+				<key>option</key>
+				<array>
+					<string>Flat Roof</string>
+					<string>Ridge Frame</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+				<key>faltList</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Area of Property Site:</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Building Height*:	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Number of Structural Areas Measured:	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Main Beam Spacing (C):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Main Beam Spacing (C):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Height of Open Web Steel Joist (D):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>End Three Web Member Type:
+</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size of End Three Web Member (h x w x b):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size of Bottom Chord (h x w x d):	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Main Beam</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Open Web Steel Joist</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bottom Chord</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Web Member</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>ridgeList</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Area of Property Site(sq.ft):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Eave Height*(ft):	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ridge Height*(ft):	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Main Beam Spacing(ft):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Main Beam Span(ft):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Second Beam Spacing(ft):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Second Beam Size(ft):</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>End Three Web Member Type
+</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size of End Three Web Member (h x w x b):	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size of Bottom Chord (h x w x d):	</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Main Beam</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Open Web Steel Joist</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bottom Chord</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Web Member</string>
+						<key>defaultValue</key>
+						<string></string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>heading</key>
+		<string>ELECTRIAL</string>
+		<key>questionList</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Electrical Meter Room Dimension (LxWxH):</string>
+				<key>option</key>
+				<array>
+					<string>60</string>
+					<string>100</string>
+					<string>125</string>
+					<string>200</string>
+					<string>400</string>
+					<string>Other</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Electrical Room + Devices Distances
+</string>
+				<key>option</key>
+				<array>
+					<string>Basement</string>
+					<string>Garage</string>
+					<string>Closet</string>
+					<string>Other</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Electrical Room + Devices Clearance
+</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Service:	</string>
+				<key>option</key>
+				<array>
+					<string>SINGLE</string>
+					<string>MULTIPLE</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Number of Service:</string>
+				<key>option</key>
+				<array>
+					<string>Please measure the distances surrounding the electrical breaker panel and clearly indicate the dimensions below:</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Service Capacity:	</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Service Type:</string>
+				<key>option</key>
+				<array>
+					<string>SINGLE PHASE</string>
+					<string>THREE PHASE</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Main Service Switch Rating:</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Distribution Panel Rating:	</string>
+				<key>option</key>
+				<array>
+					<string>Yes</string>
+					<string>No</string>
+				</array>
+				<key>defaultValue</key>
+				<string>Yes</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Switch Rating for Distribution Panel Board:	</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Main Circuit Breaker Rating for Distribution Panel:</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Transformer Detail:</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Multi-Meter:	</string>
+				<key>option</key>
+				<array>
+					<string>YES</string>
+					<string>NO</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>No. of Electrical Meters:	</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sub Panel Board:</string>
+				<key>option</key>
+				<array>
+					<string>YES</string>
+					<string>NO</string>
+				</array>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sub Panel Breaker Rating for Distribution Panel:</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Transformer</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Electrical Room</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Electrical Meter</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Distribution Panel</string>
+				<key>option</key>
+				<array/>
+				<key>defaultValue</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
